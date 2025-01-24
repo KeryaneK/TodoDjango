@@ -1,0 +1,54 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginWindow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: .25em;
+
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid white;
+}
+
+.loginButtons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+button {
+    cursor: pointer;
+}
+
+#loginButton {
+    padding: .25em 1em;
+    display: flex;
+}
+
+#registerButton {
+    border: none;
+    background-color: transparent;
+    font-size: small;
+    text-decoration: underline;
+}
+
+.overlay {
+    position: absolute;
+    top: calc(100% + 1em);
+    left: 0;
+    width: 100%;
+
+    text-align: center;
+    font-size: smaller;
+}

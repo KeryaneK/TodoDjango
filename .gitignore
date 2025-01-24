@@ -1,5 +1,8 @@
-.venv
+.venv/
 __pycache__
+static_files/
+
+db.sqlite3
 
 logs
 *.log
