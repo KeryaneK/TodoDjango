@@ -1,14 +1,15 @@
 Setup:
 
-'./frontend'
-npm install
-npm run build
+'./frontend'  
+npm install  
+npm run build  
 
-'./'
-python manage.py collectstatic
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+'./'  
+pip install -r requirements.txt  
+python manage.py collectstatic  
+python manage.py makemigrations  
+python manage.py migrate  
+python manage.py runserver  
 
 Unfortunately lack of time got me - that's why the frontend is unfinished. You can still check my approach as the login page is working properly.
 I've tried to use as many DRF's build-in methods as possible to keep things clean (pagination, authentication, data validation etc.).
