@@ -1,9 +1,5 @@
-import React from 'react'
-
 const deleteTodo = () => {
-  return (
-    <div>deleteTodo</div>
-  )
+  return ''
 }
 
 export default deleteTodo

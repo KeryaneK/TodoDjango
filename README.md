@@ -2,11 +2,10 @@ Setup:
 
 './frontend'  
 npm install  
-npm run build  
+npm run dev 
 
 './'  
-pip install -r requirements.txt  
-python manage.py collectstatic  
+pip install -r requirements.txt   
 python manage.py makemigrations  
 python manage.py migrate  
 python manage.py runserver  
